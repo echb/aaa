@@ -20,8 +20,7 @@ export const experienceSectionComponent = ({ sectionTitle = '', items = [] } = {
                   ${textLight(e.role, true)}
                 </div>
               `).join('')}
-            <a class="resume" href="CV_English.docx.pdf" target="blank">View My Resume👉
-            </a>
+            <a class="resume" href="CV_English.docx.pdf" target="blank" style="display: none";>View My Resume👉</a>
           </div>
       </section>
   `;

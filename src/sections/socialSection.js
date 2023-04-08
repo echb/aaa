@@ -1,5 +1,5 @@
 import { $el } from "../utils"
-import './footerSection.css'
+import './socialSection.css'
 
 const html = /*html*/`
   <div class="socialBox">
@@ -142,6 +142,6 @@ const html = /*html*/`
   </div>
 `;
 
-export const footerComponent = $el({ template: html })
+export const socialComponent = $el({ template: html })
 
 
